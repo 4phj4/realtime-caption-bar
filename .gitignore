@@ -1,0 +1,24 @@
+# 运行时生成的本地配置（含窗口位置、音频设备 ID，因人而异）
+native_caption_settings.json
+
+# 识别产出的文字稿，含个人课程/会议内容，不入库
+transcripts/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc.*
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 密钥与本地环境变量，切勿提交
+.env
+.env.*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
